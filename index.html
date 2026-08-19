@@ -296,6 +296,8 @@ blockquote footer{font-family:var(--mono);font-size:11px;letter-spacing:.1em;col
   .mono-badge{width:110px}
   .week{grid-template-columns:46px 1fr;gap:12px}
   .week .side{grid-column:2;justify-content:flex-start;margin-top:8px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .quotes{grid-template-columns:1fr}
 }
 @media (max-width:720px){
   .brand{display:none}
@@ -311,6 +313,11 @@ blockquote footer{font-family:var(--mono);font-size:11px;letter-spacing:.1em;col
   .level{grid-template-columns:82px 8px 1fr;gap:14px}
   .nav-cta{padding:8px 12px;font-size:12.5px}
   .nav{gap:14px}
+  .stats{grid-template-columns:1fr}
+  .gauges{grid-template-columns:1fr;gap:20px}
+  .poster-inner{padding:22px 20px 20px;gap:16px}
+  .play{width:52px;height:52px}
+  .play .tri{border-left-width:15px;border-top-width:10px;border-bottom-width:10px;margin-left:4px}
 }
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important;animation:none!important}
